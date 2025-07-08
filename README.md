@@ -28,14 +28,14 @@ A lightweight ChatGPT-style application built with **React** (frontend) and **Ex
 
 ## 📦 Project Structure
 
-├── public/
-├── src/
-│   ├── App.js               # Main React component
-│   ├── assets/              # Avatar images
-│   ├── .env                 # API key for OpenRouter
-│   └── server.js            # Express backend
-├── package.json
-└── README.md
+public/
+  src/
+    App.js               # Main React component
+    assets/              # Avatar images
+    .env                 # API key for OpenRouter
+  server.js            # Express backend
+  package.json
+  README.md
 
 ---
 
@@ -69,6 +69,9 @@ The backend uses the following API call:
       "messages": [{ "role": "user", "content": "..." }],
       "max_token": 100
     }
+
+---
+## Screenshot
 <img width="810" alt="Screenshot 2025-07-08 at 4 53 51 PM" src="https://github.com/user-attachments/assets/e882a42e-730a-43df-804b-59f3a38c3298" />
 
 ---
